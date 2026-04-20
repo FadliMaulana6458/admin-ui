@@ -11,7 +11,7 @@ function Exercise() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <UserCard 
                     name="Fadli"
-                    email="fadlisenti@gmail.com"
+                    email="fadlisentiyaki@gmail.com"
                     street="Jl. Sentiyaki"
                     city="Semarang"
                     />
