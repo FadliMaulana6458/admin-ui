@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const PostCard = ({ title, body }) => {
   const [isClicked, setIsClicked] = useState(false);

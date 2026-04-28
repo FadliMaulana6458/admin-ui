@@ -4,8 +4,8 @@ function App() {
   return (
     <main className="min-h-screen bg-special-mainBg flex justify-center items-center">
       {/* container start */}
-      <div className="w-full max-w-sm">
-        {/* logo start */}
+      <div className=" w-full max-w-sm">
+       {/* logo start */}
         <div className="flex justify-center font-poppins tracking-wide text-primary text-4xl">
           <span className="font-bold">FINE</span>
           bank
@@ -13,9 +13,9 @@ function App() {
         </div> 
         {/* logo end */}
         {/* form start */}
-        <div className="mt-16">
+        <div className="mt-16" >
           <form action="">
-            <div>
+            <div className="mb-6">
               <label htmlFor="email" className="block text-sm mb-2">
                 Email address
               </label>
@@ -46,7 +46,7 @@ function App() {
                 name="status"
                 id="status"
               />
-              <label htmlFor="status" className="text-sm text-gray-01 ml-6">
+              <label htmlFor="status" className="text-sm text-gray-01 mb-6">
                 Keep me signed in
               </label>
             </div>
@@ -59,10 +59,10 @@ function App() {
           </form>
         </div>
         {/* form end */}
-        				{/* teks start */}
-        <div className="my-9 px-7 flex flex-col justify-center items-center text-xs text-gray-03">
+        {/* teks start */}
+        <div className=" my-9 px-7 flex flex-col justify-center items-center text-xs text-gray-03">
           <div className="border border-gray-05 w-full"></div>
-          <div className="px -2 bg-special-mainBg absolute"> or sign in with</div>
+          <div className="px-2 bg-special-mainBg absolute"> or sign in with</div>
         </div>
         {/* teks end */}
         {/* sign in with google start */}
